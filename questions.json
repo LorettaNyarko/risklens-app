@@ -1,0 +1,42 @@
+{
+    "Financial Risk": {
+        "weight": 0.3,
+        "questions": [
+            "Do you keep monthly records of revenue and expenses?",
+            "Do you have access to any form of credit?",
+            "Can you cover business expenses for 3+ months without new income?"
+        ]
+    },
+    "Operational Risk": {
+        "weight": 0.2,
+        "questions": [
+            "Do you have more than one supplier for critical inputs?",
+            "Do you have standard procedures for daily operations?",
+            "Do you have staff trained to cover roles if someone is absent?"
+        ]
+    },
+    "Market Risk": {
+        "weight": 0.2,
+        "questions": [
+            "Is your customer base diversified (no one customer >30%)?",
+            "Are your products/services in stable demand?",
+            "Have you changed prices or product mix in the past 6 months?"
+        ]
+    },
+    "Systemic Risk Exposure": {
+        "weight": 0.2,
+        "questions": [
+            "Have inflation/FX changes disrupted your business in past year?",
+            "Is your main fuel/power source stable and affordable?",
+            "Are your inputs sourced locally?"
+        ]
+    },
+    "Technology Readiness": {
+        "weight": 0.1,
+        "questions": [
+            "Do you use digital tools (e.g., mobile money, spreadsheets, apps)?",
+            "Do you track customer or sales data?",
+            "Are you able to conduct any business online (e.g., social media, WhatsApp)?"
+        ]
+    }
+}
